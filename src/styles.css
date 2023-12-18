@@ -1,0 +1,59 @@
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: -20px;
+  color: #5c5470;
+}
+h1 {
+  font-size: 70px;
+}
+h3 {
+  text-align: center;
+  color: #f70776;
+}
+.cat-body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/023/809/604/original/seamless-pattern-cat-faces-and-paw-prints-on-a-white-background-print-background-children-s-textile-wallpaper-vector.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.cat-body-info {
+  width: 90%;
+  max-width: 500px;
+  background-color: #d3d6db;
+  margin: 100px auto 0;
+  padding: 35px 35px;
+  margin-bottom: 50px;
+}
+.grid {
+  margin: auto;
+  padding: 45px;
+  display: grid;
+  width: 800px;
+  grid-template-columns: repeat(2, 200px);
+  grid-gap: 20px;
+  transition: all 150ms ease-in-out;
+}
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+.cat-tea {
+  width: 900px;
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 30px;
+}
+button {
+  font-weight: bold;
+  display: block;
+  margin: 10px auto;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: pink;
+  color: #f70776;
+}
